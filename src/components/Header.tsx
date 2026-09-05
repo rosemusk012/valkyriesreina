@@ -1,5 +1,6 @@
 const links = [
   { href: '#house', label: 'House' },
+  { href: '#finding-sival', label: 'Sival' },
   { href: '#table', label: 'Table' },
   { href: '#creations', label: 'Creations' },
   { href: '#support', label: 'Support' },

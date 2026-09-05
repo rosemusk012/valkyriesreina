@@ -66,3 +66,39 @@ body {
     animation: none;
   }
 }
+
+/* Subtle braid / ring motif for Finding Sival */
+.braid-ring {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+  box-shadow:
+    0 0 0 6px color-mix(in srgb, var(--color-brass) 8%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--color-brass) 18%, transparent);
+  opacity: 0.7;
+}
+
+.braid-ring::before,
+.braid-ring::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+}
+
+.braid-ring::before {
+  transform: rotate(28deg) scale(0.72);
+}
+
+.braid-ring::after {
+  transform: rotate(-18deg) scale(0.48);
+  border-color: color-mix(in srgb, var(--color-brass) 40%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .braid-ring {
+    opacity: 0.55;
+  }
+}
