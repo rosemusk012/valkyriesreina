@@ -1,6 +1,7 @@
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { House } from './components/House'
+import { Table } from './components/Table'
 import { Creations } from './components/Creations'
 import { Support } from './components/Support'
 import { Footer } from './components/Footer'
@@ -22,6 +23,8 @@ export default function App() {
         <Hero />
         <Rule />
         <House />
+        <Rule />
+        <Table />
         <Rule />
         <Creations />
         <Rule />

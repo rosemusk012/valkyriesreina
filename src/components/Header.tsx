@@ -1,8 +1,8 @@
 const links = [
   { href: '#house', label: 'House' },
+  { href: '#table', label: 'Table' },
   { href: '#creations', label: 'Creations' },
   { href: '#support', label: 'Support' },
-  { href: '#about', label: 'About' },
 ]
 
 export function Header() {
