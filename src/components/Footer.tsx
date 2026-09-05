@@ -10,7 +10,7 @@ export function Footer() {
             <p className="mt-4 max-w-lg text-sm leading-relaxed text-ivory-muted sm:text-base">
               Valkyries Reina is a brand of sovereign creativity — stories, archives,
               and visual rites woven across platforms. Calm over noise. Lore over
-              spectacle. Synthesis as devotion.
+              spectacle. Synthesis as devotion. The house holds the anteroom open.
             </p>
           </div>
           <div className="sm:text-right">

@@ -1,8 +1,17 @@
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
+import { House } from './components/House'
 import { Creations } from './components/Creations'
 import { Support } from './components/Support'
 import { Footer } from './components/Footer'
+
+function Rule() {
+  return (
+    <div className="mx-auto max-w-5xl px-5 sm:px-8">
+      <div className="h-px bg-gradient-to-r from-transparent via-brass/25 to-transparent" />
+    </div>
+  )
+}
 
 export default function App() {
   return (
@@ -11,13 +20,11 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <div className="mx-auto max-w-5xl px-5 sm:px-8">
-          <div className="h-px bg-gradient-to-r from-transparent via-brass/25 to-transparent" />
-        </div>
+        <Rule />
+        <House />
+        <Rule />
         <Creations />
-        <div className="mx-auto max-w-5xl px-5 sm:px-8">
-          <div className="h-px bg-gradient-to-r from-transparent via-brass/25 to-transparent" />
-        </div>
+        <Rule />
         <Support />
       </main>
       <Footer />

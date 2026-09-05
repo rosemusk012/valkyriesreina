@@ -28,10 +28,10 @@ export function Hero() {
             Enter the gallery
           </a>
           <a
-            href="#support"
+            href="#house"
             className="inline-flex items-center rounded-full border border-ivory/15 px-6 py-2.5 text-xs font-medium tracking-[0.2em] text-ivory-muted uppercase transition hover:border-ivory/35 hover:text-ivory"
           >
-            Support the work
+            Enter the house
           </a>
         </div>
       </div>
