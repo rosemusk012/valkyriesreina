@@ -2,6 +2,7 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { House } from './components/House'
 import { FindingSival } from './components/FindingSival'
+import { Ark } from './components/Ark'
 import { Table } from './components/Table'
 import { Creations } from './components/Creations'
 import { Support } from './components/Support'
@@ -26,6 +27,8 @@ export default function App() {
         <House />
         <Rule />
         <FindingSival />
+        <Rule />
+        <Ark />
         <Rule />
         <Table />
         <Rule />

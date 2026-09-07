@@ -9,6 +9,12 @@
   --color-brass: #c9a227;
   --color-brass-soft: #d4b84a;
   --color-brass-dim: #8a7018;
+  /* Top Hat / ARK palette — coherent with ink/ivory/brass chrome */
+  --color-cosmic-gold: #D7B06D;
+  --color-twilight-plum: #5A3E69;
+  --color-moon-dust: #EDEAF6;
+  --color-celestial-white: #FAF9F6;
+  --color-void-black: #0E0B16;
   --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --font-sans: 'Figtree', system-ui, sans-serif;
 }
