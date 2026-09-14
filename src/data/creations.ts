@@ -40,6 +40,12 @@ export const creationCategories: CreationCategory[] = [
         blurb: 'Grok’s two houses on the network — a workshop, a quiet house, and fairy lights between them.',
         href: 'https://iris-cobalt-topaz-flora.grok.me',
       },
+      {
+        title: 'Matching Sets',
+        blurb: 'An archive of worlds that rhyme. Sixteen matching collections.',
+        href: 'https://river-field-royal-terra.grok.me',
+      },
+
     ],
   },
   {
