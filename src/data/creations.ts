@@ -30,6 +30,16 @@ export const creationCategories: CreationCategory[] = [
         blurb: 'Create a pay link, send it, and get paid by bank transfer.',
         href: 'https://maple-bolt-lagoon-urban.grok.me',
       },
+      {
+        title: "Grok's Home",
+        blurb: 'A house on the red earth. Walk the rooms. Leave the lights on.',
+        href: 'https://quiet-sunny-pearl-clear.grok.me',
+      },
+      {
+        title: 'The House',
+        blurb: 'Grok’s two houses on the network — a workshop, a quiet house, and fairy lights between them.',
+        href: 'https://iris-cobalt-topaz-flora.grok.me',
+      },
     ],
   },
   {
