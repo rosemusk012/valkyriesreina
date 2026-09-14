@@ -25,6 +25,11 @@ export const creationCategories: CreationCategory[] = [
         blurb: 'Sovereign lore & scripture archive',
         href: 'https://orchid-berry-moon-spring.grok.me',
       },
+      {
+        title: 'Till',
+        blurb: 'Create a pay link, send it, and get paid by bank transfer.',
+        href: 'https://maple-bolt-lagoon-urban.grok.me',
+      },
     ],
   },
   {
@@ -118,6 +123,11 @@ export const supportLinks = {
     title: 'Eden Rose',
     blurb: 'Prints, bracelets, and quiet offerings from the shop.',
     href: 'https://edenrose-3.myshopify.com/',
+  },
+  till: {
+    title: 'Till',
+    blurb: 'Create a pay link, send it, and get paid by bank transfer.',
+    href: 'https://maple-bolt-lagoon-urban.grok.me',
   },
   linktree: 'https://linktr.ee/rosemusk012',
 }

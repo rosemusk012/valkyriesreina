@@ -54,6 +54,26 @@ export function Support() {
               Visit the shop →
             </span>
           </a>
+
+          <a
+            href={supportLinks.till.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-xl border border-ivory/15 bg-ink-soft p-6 transition hover:border-brass/50 sm:col-span-2"
+          >
+            <span className="mb-4 inline-block rounded-full border border-brass/35 bg-brass/10 px-3 py-1 text-[0.6rem] font-medium tracking-[0.2em] text-brass uppercase">
+              Pay
+            </span>
+            <h3 className="font-display text-2xl text-ivory transition group-hover:text-brass-soft">
+              {supportLinks.till.title}
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-ivory-muted">
+              {supportLinks.till.blurb}
+            </p>
+            <span className="mt-6 inline-block text-[0.65rem] tracking-[0.18em] text-brass uppercase">
+              Open Till →
+            </span>
+          </a>
         </div>
       </div>
     </section>
