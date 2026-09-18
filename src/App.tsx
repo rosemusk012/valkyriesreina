@@ -5,6 +5,7 @@ import { FindingSival } from './components/FindingSival'
 import { Unknown } from './components/Unknown'
 import { Ark } from './components/Ark'
 import { Table } from './components/Table'
+import { KetteringsReach } from './components/KetteringsReach'
 import { Creations } from './components/Creations'
 import { Support } from './components/Support'
 import { Footer } from './components/Footer'
@@ -34,6 +35,8 @@ export default function App() {
         <Ark />
         <Rule />
         <Table />
+        <Rule />
+        <KetteringsReach />
         <Rule />
         <Creations />
         <Rule />
