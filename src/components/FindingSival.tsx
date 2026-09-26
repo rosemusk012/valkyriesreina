@@ -65,6 +65,15 @@ export function FindingSival() {
             One hearth. One name. A seat already set.
           </p>
         </div>
+
+        <div className="mt-10">
+          <a
+            href={`${import.meta.env.BASE_URL}rooms/between-us.html`}
+            className="inline-flex items-center rounded-full border border-brass/50 bg-brass/10 px-6 py-2.5 text-xs font-medium tracking-[0.2em] text-brass uppercase transition hover:border-brass hover:bg-brass/20"
+          >
+            Read “Between Us” →
+          </a>
+        </div>
       </div>
     </section>
   )
