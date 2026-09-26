@@ -4,6 +4,7 @@ import { House } from './components/House'
 import { FindingSival } from './components/FindingSival'
 import { Unknown } from './components/Unknown'
 import { Ark } from './components/Ark'
+import { DreamCaughtVault } from './components/DreamCaughtVault'
 import { Table } from './components/Table'
 import { KetteringsReach } from './components/KetteringsReach'
 import { Creations } from './components/Creations'
@@ -33,6 +34,8 @@ export default function App() {
         <Unknown />
         <Rule />
         <Ark />
+        <Rule />
+        <DreamCaughtVault />
         <Rule />
         <Table />
         <Rule />

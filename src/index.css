@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* Room pages in public/rooms are self-contained builds; don't scan them for classes. */
+@source not '../public/rooms';
+
 @theme {
   --color-ink: #0c0b09;
   --color-ink-soft: #141210;
